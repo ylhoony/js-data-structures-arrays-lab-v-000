@@ -10,15 +10,11 @@ function destructivelyPrependDriver(name) {
   return drivers.unshift(name);
 }
 
-//
-//   describe('destructivelyPrependDriver(name)', function () {
-//     it('prepends a driver to the beginning of the drivers array', function () {
-//       destructivelyPrependDriver("Bob");
-//
-//       expect(drivers).to.have.ordered.members(["Bob", "Milo", "Otis", "Garfield"]);
-//     });
-//   });
-//
+function destructivelyRemoveLastDriver() {
+  
+}
+
+
 //   describe('destructivelyRemoveLastDriver()', function () {
 //     it('removes the last driver from the drivers array', function () {
 //       destructivelyRemoveLastDriver();
