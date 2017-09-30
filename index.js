@@ -26,14 +26,11 @@ function prependDriver(name) {
   return [name, ...drivers];
 }
 
-//
-//   describe('prependDriver(name)', function () {
-//     it('prepends a driver to the drivers array and returns a new array, leaving the drivers array unchanged', function () {
-//       expect(prependDriver("Arnold")).to.have.ordered.members(["Arnold", "Milo", "Otis", "Garfield"]);
-//
-//       expect(drivers).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-//     });
-//   });
+function removeLastDriver() {
+  return drivers.slice(-1);
+}
+
+
 //
 //   describe('removeLastDriver()', function () {
 //     it('removes the last driver in the drivers array and returns a new array, leaving the drivers array unchanged', function () {
