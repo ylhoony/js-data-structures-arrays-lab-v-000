@@ -14,14 +14,10 @@ function destructivelyRemoveLastDriver() {
   return drivers.pop();
 }
 
+function destructivelyRemoveFirstDriver() {
+  
+}
 
-//   describe('destructivelyRemoveLastDriver()', function () {
-//     it('removes the last driver from the drivers array', function () {
-//       destructivelyRemoveLastDriver();
-//
-//       expect(drivers).to.have.ordered.members(["Milo", "Otis"]).and.to.not.include('Garfield');
-//     });
-//   });
 //
 //   describe('destructivelyRemoveFirstDriver()', function () {
 //     it('removes the First driver from the drivers array', function () {
