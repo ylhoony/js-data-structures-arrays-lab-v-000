@@ -22,14 +22,10 @@ function appendDriver(name) {
   return [...drivers, name];
 }
 
-//
-//   describe('appendDriver(name)', function () {
-//     it('appends a driver to the drivers array and returns a new array, leaving the drivers array unchanged', function () {
-//       expect(appendDriver("Broom")).to.have.ordered.members(["Milo", "Otis", "Garfield", "Broom"]);
-//
-//       expect(drivers).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-//     });
-//   });
+function prependDriver(name) {
+  return [name, ...drivers];
+}
+
 //
 //   describe('prependDriver(name)', function () {
 //     it('prepends a driver to the drivers array and returns a new array, leaving the drivers array unchanged', function () {
