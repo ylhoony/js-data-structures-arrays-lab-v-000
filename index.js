@@ -2,16 +2,10 @@
 
 const drivers = ["Milo", "Otis", "Garfield"];
 
+function destructivelyAppendDriver(name) {
+  return drivers.push(name);
+}
 
-// describe('drivers', function () {
-//   it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
-//     expect(drivers).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-//   });
-//
-//   it('is declared with const', function () {
-//     expect(function () { drivers = []; }).to.throw(TypeError);
-//   });
-// });
 //
 // describe('Array functions', function () {
 //   beforeEach(function () {
