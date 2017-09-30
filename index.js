@@ -6,21 +6,10 @@ function destructivelyAppendDriver(name) {
   return drivers.push(name);
 }
 
-//
-// describe('Array functions', function () {
-//   beforeEach(function () {
-//     drivers.length = 0;
-//
-//     drivers.push('Milo', 'Otis', 'Garfield');
-//   });
-//
-//   describe('destructivelyAppendDriver(name)', function () {
-//     it('appends a driver to the end of the drivers array', function () {
-//       destructivelyAppendDriver('Ralph');
-//
-//       expect(drivers).to.have.ordered.members(["Milo", "Otis", "Garfield", "Ralph"]);
-//     });
-//   });
+function destructivelyPrependDriver(name) {
+  return drivers.unshift(name);
+}
+
 //
 //   describe('destructivelyPrependDriver(name)', function () {
 //     it('prepends a driver to the beginning of the drivers array', function () {
