@@ -18,14 +18,10 @@ function destructivelyRemoveFirstDriver() {
   return drivers.shift();
 }
 
-//
-//   describe('destructivelyRemoveFirstDriver()', function () {
-//     it('removes the First driver from the drivers array', function () {
-//       destructivelyRemoveFirstDriver();
-//
-//       expect(drivers).to.have.ordered.members(["Otis", "Garfield"]).and.to.not.include('Milo');
-//     });
-//   });
+function appendDriver(name) {
+  return [...drivers, name];
+}
+
 //
 //   describe('appendDriver(name)', function () {
 //     it('appends a driver to the drivers array and returns a new array, leaving the drivers array unchanged', function () {
